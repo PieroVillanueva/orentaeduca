@@ -1,25 +1,25 @@
 import { ventajas } from "../utils/Constantes";
 export default function Ventajas() {
   return (
-    <div className="mx-auto max-w-7xl flex py-12">
-      <div className="">
-        <h2 className=" mb-14 max-w-[35ch]">
+    <div className="mx-auto container flex py-12">
+      <div>
+        <h2 className=" mb-12 max-w-[25ch]">
           Habilidades de Fortalecimiento para{" "}
           <span className="text-primary-500">Afrontar Tiempos Difíciles</span>
         </h2>
         {ventajas.map((ventaja) => (
-          <div key={ventaja.titulo} className="flex  mb-10">
+          <div key={ventaja.titulo} className="flex mb-8">
             <div
-              className="bg-primary-500 rounded-full min-w-14 h-14 flex justify-center mr-4
+              className="bg-primary-500 rounded-full min-w-16 h-16 flex justify-center mr-4
              items-center hover:bg-primary-600 transition-all"
             >
               <img
                 src={`/icons/${ventaja.icono}.svg `}
                 alt={ventaja.icono}
-                className="h-7"
+                className="h-9"
               />
             </div>
-            <div className="max-w-3xl">
+            <div className="max-w-3xl flex gap-2 flex-col">
               <h3>{ventaja.titulo}</h3>
               <p>{ventaja.descripcion}</p>
             </div>
@@ -28,7 +28,7 @@ export default function Ventajas() {
         <button
           onClick={() => {}}
           className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl items-center max-w-max flex gap-4
-          hover:scale-105 transition-all mt-14"
+          hover:scale-105 transition-all mt-12"
         >
           AGENDAR UNA CITA
         </button>
@@ -40,7 +40,7 @@ export default function Ventajas() {
           sólida para afrontar cualquier adversidad.
         </p>
         <div
-          className="bg-primary-600 mx-auto w-fit py-7 px-12 flex gap-8 justify-center 
+          className="bg-primary-600 mx-auto w-fit py-6 px-12 flex gap-8 justify-center 
         items-center rounded-2xl mb-[-52px] relative z-10 "
         >
           <div className="flex gap-2 font-semibold items-center ">
@@ -56,7 +56,7 @@ export default function Ventajas() {
           <img
             src="/img/ventajas.webp"
             alt="Ventajas"
-            className="rounded-2xl shadow-2xl w-[630px]"
+            className="rounded-2xl shadow-2xl max-w-[650px] "
           />
         </div>
       </div>
