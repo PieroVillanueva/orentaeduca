@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <nav className="bg-primary-950 flex justify-center">
       <div className="flex container w-full justify-between py-6 px-4">
-        <a href="#">
+        <a href="/">
           <img
             src="/img/logo.png"
             alt="Logo"
@@ -15,7 +15,7 @@ export default function Header() {
             <a href="#" className="hover:text-secondary transition-all">
               Servicios
             </a>
-            <a href="#" className="hover:text-secondary transition-all">
+            <a href="/nosotros" className="hover:text-secondary transition-all">
               Sobre Nosotros
             </a>
             <a href="#" className="hover:text-secondary transition-all">
