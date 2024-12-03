@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-primary-950 min-h-36 ">
       <div className="container  mx-auto">
         <div className="flex  justify-between mx-auto  py-9 border-b-[0.5px] border-[#82899A]">
-          <a href="">
+          <a href="/">
             <img
               src="/img/logo.png"
               alt="Logo"
@@ -15,10 +15,16 @@ export default function Footer() {
               <a href="#" className="hover:text-secondary transition-all">
                 Servicios
               </a>
-              <a href="#" className="hover:text-secondary transition-all">
+              <a
+                href="/nosotros"
+                className="hover:text-secondary transition-all"
+              >
                 Sobre Nosotros
               </a>
-              <a href="#" className="hover:text-secondary transition-all">
+              <a
+                href="/contacto"
+                className="hover:text-secondary transition-all"
+              >
                 Contacto
               </a>
             </div>
@@ -36,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="py-9 ">
-          Copyright © 2024. Todos los derechos reservados.{" "}
+          Copyright © 2024. Todos los derechos reservados.
         </p>
       </div>
     </footer>

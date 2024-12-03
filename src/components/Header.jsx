@@ -18,7 +18,7 @@ export default function Header() {
             <a href="/nosotros" className="hover:text-secondary transition-all">
               Sobre Nosotros
             </a>
-            <a href="#" className="hover:text-secondary transition-all">
+            <a href="/contacto" className="hover:text-secondary transition-all">
               Contacto
             </a>
           </div>
