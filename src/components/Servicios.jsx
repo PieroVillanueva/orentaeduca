@@ -3,7 +3,7 @@ import CardServicios from "./CardServicios";
 
 export default function Servicios() {
   return (
-    <div className="pt-24 pb-12 px-8 xl:px-0">
+    <div className="pt-16 pb-16 px-8 xl:px-0">
       <h2 className="text-center mb-8 text-3xl md:text-4xl lg:text-3xl">
         Nuestros Servicios
       </h2>

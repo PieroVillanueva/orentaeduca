@@ -1,6 +1,6 @@
 export default function Expertos() {
   return (
-    <div className="mx-auto container flex justify-center flex-col pt-12 pb-12 xl:pb-24 text-center px-8 md:px-0">
+    <div className="mx-auto container flex justify-center flex-col pt-16 pb-16  text-center px-8 md:px-0">
       <div className=" flex  flex-col gap-4 mb-8">
         <h3 className="text-base">Nuestros Psicólogos</h3>
         <h2>

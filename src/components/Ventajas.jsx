@@ -66,7 +66,7 @@
 import { ventajas } from "../utils/Constantes";
 export default function Ventajas() {
   return (
-    <div className="mx-auto container grid xl:grid-cols-2 py-12 px-8 lg:px-0 gap-8 md:gap-0">
+    <div className="mx-auto container grid xl:grid-cols-2 py-16 px-8 lg:px-0 gap-8 md:gap-0">
       <div className="lg:max-w-lg mx-auto">
         <h2 className=" mb-12 max-w-[25ch]">
           Habilidades de Fortalecimiento para{" "}

@@ -7,7 +7,7 @@ export default function Consultanos() {
           alt="Consultanos1"
           className="hidden lg:block w-1/4"
         />
-        <div className="flex flex-col justify-center items-center bg-pattern w-full lg:2/4 px-8 md:px-0 py-12 md:py-12">
+        <div className="flex flex-col justify-center items-center bg-pattern w-full lg:2/4 px-8 md:px-0 py-16 lg:py-0">
           <div className="max-w-xl flex flex-col ">
             <h2 className="pb-4">
               ¡No Dudes En <span className="text-primary-500">Consultar</span>{" "}
