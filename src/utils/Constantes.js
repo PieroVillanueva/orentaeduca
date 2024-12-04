@@ -50,7 +50,7 @@ export const ventajas = [
             "Brindándonos un sentido de control y dirección en momentos inciertos.",
     },
 ];
-export const atencionAdaptada = [
+export const atenciones = [
     {
         icono: "atencionPersonalizada",
         titulo: "Atención Personalizada",
@@ -70,7 +70,7 @@ export const atencionAdaptada = [
             "Ya sea que estés lidiando con ansiedad, depresión o buscando mejorar tu bienestar general, en Orentaeduca estamos aquí para apoyarte. Nuestro compromiso es acompañarte en tu camino hacia una vida más plena y satisfactoria.",
     },
 ];
-export const misionVision = [
+export const misiones = [
     {
         titulo: "Nuestra Misión",
         descripcion:
@@ -85,5 +85,32 @@ export const misionVision = [
         titulo: "Nuestro Valor",
         descripcion:
             "Valoramos la individualidad y el bienestar de cada paciente, ofreciendo apoyo profesional con horarios flexibles y planes personalizados."
+    },
+];
+
+export const contactos = [
+    {
+        titulo: "Oficina",
+        icono: "mapa",
+        descripcion:
+            "Jr. La Carabel #452 San Isidro. Lima.",
+    },
+    {
+        titulo: "Correo",
+        icono: "correo",
+        descripcion:
+            "corentaeduca@gmail.com."
+    },
+    {
+        titulo: "WhatsApp",
+        icono: "whatsapp",
+        descripcion:
+            "(+51) 953 921 305"
+    },
+    {
+        titulo: "Horario de Atención",
+        icono: "reloj",
+        descripcion:
+            "Lunes a Sábado: 9:00 a.m. - 7:00 p.m."
     },
 ];

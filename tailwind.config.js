@@ -29,6 +29,7 @@ export default {
       },
       backgroundImage: {
         'pattern': "url('/img/bgCeleste.svg')",
+        'contacto1': "url('/img/contacto1.webp')",
         'gradiente-pattern': 'linear-gradient(130deg, rgba(194, 221, 245, 0.25) -1%, rgba(79, 164, 225, 0.25) 59%)',
         'gradiente1': 'linear-gradient(180deg, #FFFFFF 21%, #C2DDF5 107%)',
       },

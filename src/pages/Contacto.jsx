@@ -1,3 +1,13 @@
+import ChateaConNosotros from "../components/ChateaConNosotros";
+import Contactanos from "../components/Contactanos";
+import Consultanos from "../components/Consultanos";
+
 export default function Contacto() {
-  return <div>Contacto</div>;
+  return (
+    <>
+      <ChateaConNosotros />
+      <Contactanos />
+      <Consultanos />
+    </>
+  );
 }

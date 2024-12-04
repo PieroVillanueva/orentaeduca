@@ -1,4 +1,4 @@
-import { misionVision as ventajas } from "../utils/Constantes";
+import { misiones } from "../utils/Constantes";
 export default function MisionVision() {
   return (
     <div className="bg-pattern bg-cover">
@@ -19,12 +19,12 @@ export default function MisionVision() {
         </div>
 
         <div className="flex gap-8">
-          {ventajas.map((ventaja) => (
-            <div key={ventaja.titulo} className="flex gap-4">
+          {misiones.map((dMision) => (
+            <div key={dMision.titulo} className="flex gap-4">
               <div className="min-h-3 min-w-3 w-3 h-3 bg-secondary mt-2" />
               <div className="max-w-lg flex gap-2 flex-col">
-                <h3>{ventaja.titulo}</h3>
-                <p>{ventaja.descripcion}</p>
+                <h3>{dMision.titulo}</h3>
+                <p>{dMision.descripcion}</p>
               </div>
             </div>
           ))}

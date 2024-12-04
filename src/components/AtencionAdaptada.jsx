@@ -1,4 +1,4 @@
-import { atencionAdaptada as ventajas } from "../utils/Constantes";
+import { atenciones } from "../utils/Constantes";
 export default function AtencionAdaptada() {
   return (
     <div className="mx-auto container flex pt-24 pb-12">
@@ -11,21 +11,21 @@ export default function AtencionAdaptada() {
           </h2>
         </div>
 
-        {ventajas.map((ventaja) => (
-          <div key={ventaja.titulo} className="flex mb-8">
+        {atenciones.map((dAtencion) => (
+          <div key={dAtencion.titulo} className="flex mb-8">
             <div
               className="bg-primary-500 rounded-full min-w-16 h-16 flex justify-center mr-4
          items-center hover:bg-primary-600 transition-all"
             >
               <img
-                src={`/icons/${ventaja.icono}.svg `}
-                alt={ventaja.icono}
+                src={`/icons/${dAtencion.icono}.svg `}
+                alt={dAtencion.icono}
                 className="w-9"
               />
             </div>
             <div className="max-w-3xl flex gap-2 flex-col">
-              <h3>{ventaja.titulo}</h3>
-              <p>{ventaja.descripcion}</p>
+              <h3>{dAtencion.titulo}</h3>
+              <p>{dAtencion.descripcion}</p>
             </div>
           </div>
         ))}
