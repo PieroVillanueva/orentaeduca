@@ -56,7 +56,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary-950 px-8">
       <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center py-9 border-b-[0.5px] border-[#82899A]">
+        <div className="flex flex-col md:flex-row justify-between items-center py-9 border-b-[0.5px] border-[#82899A] ">
           <Link to="/" className="mb-6 md:mb-0">
             <img
               src="/img/logo.png"
@@ -65,7 +65,7 @@ export default function Footer() {
             />
           </Link>
 
-          <div className="text-white flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-6 md:mb-0">
+          <div className="text-white flex flex-col md:flex-row items-center gap-6 xl:gap-12 mb-6 md:mb-0">
             <Link to="#" className="hover:text-secondary transition-all">
               Servicios
             </Link>
