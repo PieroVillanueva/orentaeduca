@@ -1,9 +1,13 @@
 export default function Consultanos() {
   return (
     <div className="bg-gradiente-pattern">
-      <div className="container mx-auto text-center flex justify-between ">
-        <img src="\img\consultanos1.webp" alt="Consultanos1" />
-        <div className="flex flex-col justify-center items-center bg-pattern w-full">
+      <div className="container  mx-auto text-center flex justify-between ">
+        <img
+          src="\img\consultanos1.webp"
+          alt="Consultanos1"
+          className="hidden lg:block w-1/4"
+        />
+        <div className="flex flex-col justify-center items-center bg-pattern w-full lg:2/4 px-8 md:px-0 py-12 md:py-12">
           <div className="max-w-xl flex flex-col ">
             <h2 className="pb-4">
               ¡No Dudes En <span className="text-primary-500">Consultar</span>{" "}
@@ -22,7 +26,11 @@ export default function Consultanos() {
             </button>
           </div>
         </div>
-        <img src="\img\consultanos2.webp" alt="Consultanos2" />
+        <img
+          src="\img\consultanos2.webp"
+          alt="Consultanos2"
+          className="hidden lg:block w-1/4"
+        />
       </div>
     </div>
   );
