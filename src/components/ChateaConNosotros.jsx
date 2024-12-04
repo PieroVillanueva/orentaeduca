@@ -8,14 +8,16 @@ export default function ChateaConNosotros() {
             Todas tus preguntas y requerimientos especiales son siempre
             bienvenidas. Estamos aquí para ayudarte.
           </p>
-          <button
-            type="submit"
-            className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl mt-2 w-full
+          <a href="https://api.whatsapp.com/send?phone=51952734506&text=Go%20lolcito?">
+            <button
+              type="submit"
+              className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl mt-2 w-full
                     hover:scale-105 transition-all flex justify-center gap-4 "
-          >
-            ENVIAR UN MENSAJE
-            <img src="/icons/whatsapp.svg" alt="Whatsapp" />
-          </button>
+            >
+              ENVIAR UN MENSAJE
+              <img src="/icons/whatsapp.svg" alt="Whatsapp" />
+            </button>
+          </a>
         </div>
       </div>
     </div>
