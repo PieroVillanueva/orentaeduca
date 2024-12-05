@@ -1,8 +1,9 @@
 import { atenciones } from "../utils/Constantes";
+
 export default function AtencionAdaptada() {
   return (
-    <div className="mx-auto container flex pt-24 pb-12">
-      <div className="max-w-2xl">
+    <div className="mx-auto container grid xl:grid-cols-2 py-16 px-8 lg:px-0 gap-8 md:gap-6">
+      <div className="xl:max-w-xl mx-auto">
         <div className="flex gap-4 flex-col mb-8">
           <h3>Nuestra Historia</h3>
           <h2 className="max-w-[25ch]">
@@ -13,12 +14,9 @@ export default function AtencionAdaptada() {
 
         {atenciones.map((dAtencion) => (
           <div key={dAtencion.titulo} className="flex mb-8">
-            <div
-              className="bg-primary-500 rounded-full min-w-16 h-16 flex justify-center mr-4
-         items-center hover:bg-primary-600 transition-all"
-            >
+            <div className="bg-primary-500 rounded-full min-w-16 h-16 flex justify-center mr-4 items-center hover:bg-primary-600 transition-all">
               <img
-                src={`/icons/${dAtencion.icono}.svg `}
+                src={`/icons/${dAtencion.icono}.svg`}
                 alt={dAtencion.icono}
                 className="w-9"
               />
@@ -30,11 +28,12 @@ export default function AtencionAdaptada() {
           </div>
         ))}
       </div>
-      <div className=" mt-12 flex justify-center items-center mx-auto">
+
+      <div className="flex justify-center items-center mx-auto">
         <img
           src="/img/atencionAdaptada.webp"
           alt="Atencion Adaptada"
-          className="rounded-2xl shadow-2xl max-w-[600px]"
+          className="rounded-2xl shadow-2xl mt-4 lg:mt-0 md:max-w-[600px]"
         />
       </div>
     </div>
