@@ -28,8 +28,9 @@ h3 {
 }
 p,
 li {
-  @apply text-typography-500;
+  @apply text-typography-100;
 }
 li{
+  @apply text-typography-500;
   @apply text-lg;
 }
