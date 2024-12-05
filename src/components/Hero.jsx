@@ -6,7 +6,7 @@ export default function Hero() {
         {/* Contenedor de texto */}
         <div className="flex flex-col gap-4 justify-center max-w-xl mx-auto md:mx-0 pt-10">
           <h3 className="font-semibold">Dr. Claudeth Smith</h3>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold max-w-[20ch]">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold max-w-[20ch] ">
             La Importancia de la{" "}
             <span className="text-primary-500">Salud Mental</span> Para una
             Mejor Vida
@@ -28,10 +28,10 @@ export default function Hero() {
           <BotonAgendarCita icono={"flecha"} style={""} />
 
           <div className="flex gap-4 mt-4 mb-8 md:mb-0">
-            <img src="/img/usuarios.webp" className="h-12" alt="Usuarios" />
+            <img src="/img/usuarios.webp" className="h-12  " alt="Usuarios" />
             <div className="flex items-start flex-col justify-center">
               <img src="/icons/estrellas.svg" className="h-4" alt="Estrellas" />
-              <p className="text-sm">250+ Clientes Satisfechos</p>
+              <p className="text-sm  ">250+ Clientes Satisfechos</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Hero() {
           <img
             src="/img/hero.webp"
             alt="Hero"
-            className=" md:pb-0 rounded-2xl "
+            className=" md:pb-0 rounded-2xl"
           />
         </div>
       </div>

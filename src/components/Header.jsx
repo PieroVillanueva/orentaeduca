@@ -10,9 +10,9 @@ export default function Header() {
       <div className="flex container w-full justify-between py-6 px-4 mx-auto">
         <NavLink to="/">
           <img
-            src="/img/logo.png"
+            src="/img/logo.webp"
             alt="Logo"
-            className="h-12 mix-blend-screen pl-2 lg:px-0"
+            className="h-12 pl-2 lg:px-0  "
           />
         </NavLink>
 
@@ -20,7 +20,7 @@ export default function Header() {
         <img
           src="/icons/menu.svg"
           alt="Menu"
-          className="lg:hidden cursor-pointer px-4 py-4 lg:px-0"
+          className="lg:hidden cursor-pointer px-4 py-4 lg:px-0  "
           onClick={() => setMenuOpen((prevValue) => !prevValue)}
         />
 
@@ -66,11 +66,7 @@ export default function Header() {
         } lg:hidden fixed top-0 left-0 w-3/4 sm:w-1/2 md:w-1/2 h-full bg-primary-950 shadow-2xl text-white flex flex-col items-center pt-12 gap-8 transition-transform duration-300 ease-in-out z-20`}
       >
         <NavLink to="/">
-          <img
-            src="/img/logo.png"
-            alt="Logo"
-            className="h-12 mix-blend-screen"
-          />
+          <img src="/img/logo.webp" alt="Logo" className="h-12  " />
         </NavLink>
         <NavLink
           to="/servicios"
@@ -90,12 +86,13 @@ export default function Header() {
         >
           Contacto
         </NavLink>
-        <button
+        {/* <button
           onClick={() => {}}
           className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl hover:scale-105 transition-all"
         >
           AGENDAR UNA CITA
-        </button>
+        </button> */}
+        <BotonAgendarCita icono={"none"} style={""} />
       </div>
     </nav>
   );

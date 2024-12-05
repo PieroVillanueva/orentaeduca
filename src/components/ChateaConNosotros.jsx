@@ -17,7 +17,7 @@ export default function ChateaConNosotros() {
                     hover:scale-105 transition-all flex justify-center gap-4 "
             >
               ENVIAR UN MENSAJE
-              <img src="/icons/whatsapp.svg" alt="Whatsapp" className="h-6" />
+              <img src="/icons/whatsapp.svg" alt="Whatsapp" className="h-6  " />
             </button>
           </a>
         </div>

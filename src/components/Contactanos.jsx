@@ -27,7 +27,7 @@ export default function Contactanos() {
                 <img
                   src={`/icons/${dContacto.icono}.svg `}
                   alt={dContacto.icono}
-                  className="h-8 w-8"
+                  className="h-8 w-8  "
                 />
               </div>
               <div className=" flex gap-2 flex-col">

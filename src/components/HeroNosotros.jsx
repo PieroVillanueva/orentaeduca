@@ -9,7 +9,7 @@ export default function HeroNosotros() {
         <img
           src="/img/nosotrosHero.webp"
           alt="Somos Orentaeduca"
-          className="rounded-2xl"
+          className="rounded-2xl "
         />
       </div>
     </div>

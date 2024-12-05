@@ -52,7 +52,7 @@ export default function Ventajas() {
           <img
             src="/img/ventajas.webp"
             alt="Ventajas"
-            className="rounded-2xl shadow-2xl xl:max-w-[650px] "
+            className="rounded-2xl shadow-2xl xl:max-w-[650px]  "
           />
         </div>
       </div>

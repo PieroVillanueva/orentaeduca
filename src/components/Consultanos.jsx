@@ -6,7 +6,7 @@ export default function Consultanos() {
         <img
           src="\img\consultanos1.webp"
           alt="Consultanos1"
-          className="hidden lg:block w-1/4"
+          className="hidden lg:block w-1/4  "
         />
         <div className="flex flex-col justify-center items-center bg-pattern w-full lg:2/4 px-8 md:px-0 py-16 lg:py-0">
           <div className="max-w-xl flex flex-col ">
@@ -31,7 +31,7 @@ export default function Consultanos() {
         <img
           src="\img\consultanos2.webp"
           alt="Consultanos2"
-          className="hidden lg:block w-1/4"
+          className="hidden lg:block w-1/4  "
         />
       </div>
     </div>

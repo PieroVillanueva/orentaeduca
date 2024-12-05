@@ -9,7 +9,7 @@ export default function MisionVision() {
             <img
               src="/img/misionVision.webp"
               alt="Mision Visión"
-              className="rounded-2xl md:max-w-[600px]"
+              className="rounded-2xl md:max-w-[600px]  "
             />
           </div>
 

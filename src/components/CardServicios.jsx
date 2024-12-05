@@ -1,5 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function CardServicios({ servicio }) {
-  const { titulo, imagen } = servicio;
+  const navigate = useNavigate();
+  const { titulo, imagen, idServicio } = servicio;
   return (
     <div className="max-w-xs h-96 w-80 rounded-2xl shadow-2xl hover:scale-105 transition-all">
       <div className={`${imagen} max-w-xs h-96 rounded-2xl shadow-interno`}>
@@ -8,6 +11,9 @@ export default function CardServicios({ servicio }) {
             {titulo}
           </h3>
           <button
+            onClick={() => {
+              navigate(`/servicios/${idServicio}`);
+            }}
             className="bg-white px-8 py-2 rounded-br-2xl rounded-tl-2xl text-typography-100 h-12 flex items-center gap-2 font-semibold
              hover:bg-secondary hover:text-white transition-all  "
           >

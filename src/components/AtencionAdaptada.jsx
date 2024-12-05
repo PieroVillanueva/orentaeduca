@@ -18,7 +18,7 @@ export default function AtencionAdaptada() {
               <img
                 src={`/icons/${dAtencion.icono}.svg`}
                 alt={dAtencion.icono}
-                className="w-9"
+                className="w-9  "
               />
             </div>
             <div className="max-w-3xl flex gap-2 flex-col">
@@ -33,7 +33,7 @@ export default function AtencionAdaptada() {
         <img
           src="/img/atencionAdaptada.webp"
           alt="Atencion Adaptada"
-          className="rounded-2xl shadow-2xl mt-4 lg:mt-0 md:max-w-[600px]"
+          className="rounded-2xl shadow-2xl mt-4 lg:mt-0 md:max-w-[600px]  "
         />
       </div>
     </div>

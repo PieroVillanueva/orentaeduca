@@ -9,7 +9,9 @@ export default function BotonAgendarCita({ icono, style }) {
                   hover:scale-105 transition-all ${style}`}
     >
       AGENDAR UNA CITA
-      {icono === "flecha" && <img src="/icons/flecha.svg" alt="Flecha" />}
+      {icono === "flecha" && (
+        <img src="/icons/flecha.svg" alt="Flecha" className=" " />
+      )}
     </button>
   );
 }

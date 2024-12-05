@@ -17,7 +17,7 @@ export default function Expertos() {
           <img
             src="/img/experto1.webp"
             alt="Experto1"
-            className="rounded-2xl "
+            className="rounded-2xl  "
           />
           <h3 className="pt-4 pb-2">Jenniffer Smith</h3>
           <p className="text-typography-500">Psicólogo</p>
@@ -26,7 +26,7 @@ export default function Expertos() {
           <img
             src="/img/experto2.webp"
             alt="Experto2"
-            className="rounded-2xl "
+            className="rounded-2xl  "
           />
           <h3 className="pt-4 pb-2">José Alvárez</h3>
           <p className="text-typography-500">Psicólogo</p>

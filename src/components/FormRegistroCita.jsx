@@ -17,9 +17,9 @@ export default function FormRegistroCita() {
       {isModalOpen && (
         <>
           {/* Fondo oscuro */}
-          <div className="fixed inset-0 bg-black opacity-50 z-10" />
+          <div className="fixed inset-0 bg-black opacity-50 z-20" />
           {/* Contenedor del modal */}
-          <div className="fixed inset-0 flex justify-center items-center z-20 mx-4 md:mx-0">
+          <div className="fixed inset-0 flex justify-center items-center z-30 mx-4 md:mx-0">
             <div className="px-8 py-8 bg-white rounded-2xl max-w-xl w-full shadow-2xl relative">
               <h2 className="mb-4 text-2xl font-semibold text-center">
                 Agende su Cita
@@ -143,7 +143,7 @@ export default function FormRegistroCita() {
                 onClick={closeModal}
                 className="absolute top-4 right-4 text-black  rounded-full p-4 "
               >
-                <img src="/icons/cerrar.svg" alt="Cerrar" className="w-4" />
+                <img src="/icons/cerrar.svg" alt="Cerrar" className="w-4  " />
               </button>
             </div>
           </div>
