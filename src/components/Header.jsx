@@ -12,7 +12,7 @@ export default function Header() {
           <img
             src="/img/logo.webp"
             alt="Logo"
-            className="h-12 pl-2 lg:px-0  "
+            className="w-[179.75px] h-[48px] pl-2 lg:pl-0  "
           />
         </NavLink>
 
@@ -66,7 +66,11 @@ export default function Header() {
         } lg:hidden fixed top-0 left-0 w-3/4 sm:w-1/2 md:w-1/2 h-full bg-primary-950 shadow-2xl text-white flex flex-col items-center pt-12 gap-8 transition-transform duration-300 ease-in-out z-20`}
       >
         <NavLink to="/">
-          <img src="/img/logo.webp" alt="Logo" className="h-12  " />
+          <img
+            src="/img/logo.webp"
+            alt="Logo"
+            className="w-[179.75px] h-[48px]   "
+          />
         </NavLink>
         <NavLink
           to="/servicios"
@@ -86,12 +90,6 @@ export default function Header() {
         >
           Contacto
         </NavLink>
-        {/* <button
-          onClick={() => {}}
-          className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl hover:scale-105 transition-all"
-        >
-          AGENDAR UNA CITA
-        </button> */}
         <BotonAgendarCita icono={"none"} style={""} />
       </div>
     </nav>

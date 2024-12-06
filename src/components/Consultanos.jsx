@@ -18,13 +18,6 @@ export default function Consultanos() {
               Estamos aquí para escucharte y apoyarte en cada paso. Si necesitas
               hablar sobre lo que te preocupa, no dudes en contactarnos.
             </p>
-            {/* <button
-              onClick={() => {}}
-              className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl items-center max-w-max flex gap-4
-          hover:scale-105 transition-all mx-auto"
-            >
-              AGENDAR UNA CITA
-            </button> */}
             <BotonAgendarCita icono={"none"} style={"mx-auto"} />
           </div>
         </div>

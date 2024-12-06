@@ -30,11 +30,13 @@ export default function AtencionAdaptada() {
       </div>
 
       <div className="flex justify-center items-center mx-auto">
-        <img
-          src="/img/atencionAdaptada.webp"
-          alt="Atencion Adaptada"
-          className="rounded-2xl shadow-2xl mt-4 lg:mt-0 md:max-w-[600px]  "
-        />
+        <div className="relative w-full aspect-[600/566.75] max-w-[600px]">
+          <img
+            src="/img/atencionAdaptada.webp"
+            alt="Atencion Adaptada"
+            className="w-full h-full object-cover rounded-2xl shadow-2xl mt-4 lg:mt-0 "
+          />
+        </div>
       </div>
     </div>
   );

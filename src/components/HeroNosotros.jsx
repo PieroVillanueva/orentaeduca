@@ -6,11 +6,13 @@ export default function HeroNosotros() {
         <h1 className="pb-4">
           Somos <span className="text-primary-500">Orentaeduca</span>
         </h1>
-        <img
-          src="/img/nosotrosHero.webp"
-          alt="Somos Orentaeduca"
-          className="rounded-2xl "
-        />
+        <div className="relative w-full aspect-[1031/493] max-w-[1031px]">
+          <img
+            src="/img/nosotrosHero.webp"
+            alt="Somos Orentaeduca"
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
       </div>
     </div>
   );

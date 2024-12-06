@@ -8,7 +8,6 @@ import DetalleServicio from "./pages/DetalleServicio";
 
 import { Routes, Route } from "react-router-dom";
 import { ModalContextProvider } from "./context/ModalContext";
-import { detallesServicio } from "./utils/Constantes";
 
 export default function App() {
   return (

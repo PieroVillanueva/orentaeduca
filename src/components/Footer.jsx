@@ -6,7 +6,11 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center py-9 border-b-[0.5px] border-[#82899A] ">
           <Link to="/" className="mb-6 md:mb-0">
-            <img src="/img/logo.webp" alt="Logo" className="h-12  " />
+            <img
+              src="/img/logo.webp"
+              alt="Logo"
+              className="w-[179.75px] h-[48px]   "
+            />
           </Link>
 
           <div className="text-white flex flex-col md:flex-row items-center gap-6 xl:gap-12 mb-6 md:mb-0">

@@ -10,7 +10,11 @@ export default function BotonAgendarCita({ icono, style }) {
     >
       AGENDAR UNA CITA
       {icono === "flecha" && (
-        <img src="/icons/flecha.svg" alt="Flecha" className=" " />
+        <img
+          src="/icons/flecha.svg"
+          alt="Flecha"
+          className="w-[19px] h-[16px] object-contain"
+        />
       )}
     </button>
   );

@@ -16,33 +16,36 @@ export default function Hero() {
             nuestras relaciones. Buscar apoyo y adoptar hábitos saludables son
             pasos clave para mantener una mente sana.
           </p>
-          {/* <button
-            onClick={() => {}}
-            className="bg-secondary text-white font-bold px-9 py-3 rounded-2xl items-center max-w-max flex gap-4
-                    hover:scale-105 transition-all"
-          >
-            AGENDAR UNA CITA
-            <img src="/icons/flecha.svg" alt="Flecha" />
-          </button> */}
 
           <BotonAgendarCita icono={"flecha"} style={""} />
 
           <div className="flex gap-4 mt-4 mb-8 md:mb-0">
-            <img src="/img/usuarios.webp" className="h-12  " alt="Usuarios" />
+            <img
+              src="/img/usuarios.webp"
+              className="w-[140px] h-[48px] object-contain"
+              alt="Usuarios"
+            />
+
             <div className="flex items-start flex-col justify-center">
-              <img src="/icons/estrellas.svg" className="h-4" alt="Estrellas" />
+              <img
+                src="/icons/estrellas.svg"
+                className="w-[88.5px] h-[16px] object-contain"
+                alt="Estrellas"
+              />
               <p className="text-sm  ">250+ Clientes Satisfechos</p>
             </div>
           </div>
         </div>
 
         {/* Imagen Hero */}
-        <div className="flex justify-center items-center lg:justify-start lg:items-start md:pt-8  ">
-          <img
-            src="/img/hero.webp"
-            alt="Hero"
-            className=" md:pb-0 rounded-2xl"
-          />
+        <div className="flex justify-center items-center lg:justify-start lg:items-start md:pt-8">
+          <div className="relative w-full aspect-[740/684] max-w-full">
+            <img
+              src="/img/hero.webp"
+              alt="Hero"
+              className="rounded-2xl w-full h-full object-cover" //
+            />
+          </div>
         </div>
       </div>
     </div>

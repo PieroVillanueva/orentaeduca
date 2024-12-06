@@ -8,7 +8,8 @@ h3,
 h4,
 h5,
 h6,
-p,li {
+p,
+li {
   font-family: "Poppins", sans-serif;
 }
 h1,
@@ -30,7 +31,9 @@ p,
 li {
   @apply text-typography-100;
 }
-li{
-  @apply text-typography-500;
+li {
   @apply text-lg;
+}
+li strong {
+  @apply text-typography-500;
 }
