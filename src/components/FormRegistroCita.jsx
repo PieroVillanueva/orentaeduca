@@ -196,7 +196,7 @@ export default function FormRegistroCita() {
           <div className="fixed inset-0 bg-black opacity-50 z-20" />
           {/* Contenedor del modal */}
           <div className="fixed inset-0 flex justify-center items-center z-30 mx-4 md:mx-0">
-            <div className="px-8 py-8 bg-white rounded-2xl max-w-xl w-full shadow-2xl relative">
+            <div className="px-8 py-8 bg-white rounded-2xl max-w-xl w-full shadow-2xl relative my-10 md:my-0">
               {!registroCorrecto && (
                 <>
                   <h2 className="mb-4 text-2xl font-semibold text-center">
