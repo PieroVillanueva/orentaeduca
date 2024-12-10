@@ -1,5 +1,4 @@
 import { createContext, useContext, useState } from "react";
-// import { pb } from "../lib/pocketbase";
 
 export const ModalContext = createContext();
 

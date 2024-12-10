@@ -431,3 +431,33 @@ export const detallesServicio = [
 
 
 ]
+
+//Nuevos
+export const horarios = [
+    { turno: "1", hora: "8:00 - 8:45", inicio: 8, minutos: 0, modalidad: "Presencial" },
+    { turno: "2", hora: "9:00 - 9:45", inicio: 9, minutos: 0, modalidad: "Presencial" },
+    { turno: "3", hora: "10:00 - 10:45", inicio: 10, minutos: 0, modalidad: "Presencial" },
+    { turno: "4", hora: "11:00 - 11:45", inicio: 11, minutos: 0, modalidad: "Presencial" },
+
+    { turno: "5", hora: "14:00 - 14:45", inicio: 14, minutos: 0, modalidad: "Presencial" },
+    { turno: "6", hora: "15:00 - 15:45", inicio: 15, minutos: 0, modalidad: "Presencial" },
+    { turno: "7", hora: "16:00 - 16:45", inicio: 16, minutos: 0, modalidad: "Presencial" },
+    { turno: "8", hora: "17:00 - 17:45", inicio: 17, minutos: 0, modalidad: "Presencial" },
+    { turno: "9", hora: "18:00 - 18:45", inicio: 18, minutos: 0, modalidad: "Presencial" },
+    { turno: "10", hora: "19:00 - 19:45", inicio: 19, minutos: 0, modalidad: "Presencial" },
+    { turno: "11", hora: "20:00 - 20:30", inicio: 20, minutos: 0, modalidad: "Virtual" },
+    { turno: "12", hora: "20:30 - 21:00", inicio: 20, minutos: 30, modalidad: "Virtual" },
+    { turno: "13", hora: "21:00 - 21:30", inicio: 21, minutos: 0, modalidad: "Virtual" },
+]
+export const especialistas = [
+    { value: "carmen", nombre: "Lic. Magda Carmen Chorres" }
+]
+export const motivos = [
+    { value: "familiar", nombre: "Terapia Familiar" },
+    { value: "conductual", nombre: "Terapia Cognitivo Conductual" },
+    { value: "lenguaje", nombre: "Terapia de Lenguaje" },
+    { value: "neuropsicologica", nombre: "Evaluación Neuropsicológica" },
+    { value: "consejeria", nombre: "Orientación y Consejería" },
+    { value: "pareja", nombre: "Terapia de Pareja" },
+    { value: "otro", nombre: "Otro" }
+]
