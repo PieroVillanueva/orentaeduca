@@ -196,7 +196,7 @@ export default function FormRegistroCita() {
           <div className="fixed inset-0 bg-black opacity-50 z-20" />
           {/* Contenedor del modal */}
           <div className="fixed inset-0 flex justify-center items-center z-30 mx-4 md:mx-0">
-            <div className="px-8 py-8 bg-white rounded-2xl max-w-xl w-full shadow-2xl relative my-10 md:my-0">
+            <div className="px-8 py-8 bg-white rounded-2xl max-w-xl w-full shadow-2xl relative max-h-[95%] overflow-y-auto ">
               {!registroCorrecto && (
                 <>
                   <h2 className="mb-4 text-2xl font-semibold text-center">
@@ -407,7 +407,7 @@ export default function FormRegistroCita() {
                   formik.resetForm(); // Resetear el formulario al cerrar
                 }}
                 disabled={loading}
-                className="absolute top-4 right-4 text-black rounded-full p-4"
+                className="absolute top-2 right-2 md:top-4 md:right-4 text-black rounded-full p-4"
               >
                 <img src="/icons/cerrar.svg" alt="Cerrar" className="w-4" />
               </button>
