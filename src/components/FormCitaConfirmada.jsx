@@ -47,9 +47,9 @@ export default function FormCitaConfirmada({ formik }) {
   // Construir el enlace de WhatsApp con la información de la cita
   const mensajeWhatsApp = `¡Buenas!%20Deseo%20realizar%20el%20pago%20de%20la%20siguiente%20cita:%0ANombre:%20${nombre}%0ATeléfono:%20${telefono}%0AEspecialista:%20${
     especialistaData?.nombre
-  }%0AMotivo:%20${motivoData?.nombre}%0AFecha:%20${convertirFecha(
-    dia
-  )}%0AHora:%20${horarioData?.hora}`;
+  }%0AModalidad:%20${horarioData?.modalidad}%0AMotivo:%20${
+    motivoData?.nombre
+  }%0AFecha:%20${convertirFecha(dia)}%0AHora:%20${horarioData?.hora}`;
 
   return (
     <>

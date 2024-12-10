@@ -32,6 +32,7 @@ export default function FormRegistroCita() {
       especialista: "carmen",
       motivo: "familiar",
       hora: "seleccionar",
+      aceptoTerminos: false,
       dia: "",
     },
     validationSchema: Yup.object({
@@ -48,6 +49,9 @@ export default function FormRegistroCita() {
         ["seleccionar"],
         "Debe seleccionar una hora."
       ),
+      aceptoTerminos: Yup.boolean()
+        .oneOf([true], "Debes aceptar los términos y condiciones")
+        .required("Este campo es obligatorio"),
     }),
     onSubmit: async (values) => {
       try {
@@ -225,7 +229,7 @@ export default function FormRegistroCita() {
                       }}
                     />
                     {formik.touched.nombre && formik.errors.nombre && (
-                      <p className="text-red-500 text-sm">
+                      <p className="text-red-500 text-sm -mt-4">
                         {formik.errors.nombre}
                       </p>
                     )}
@@ -367,14 +371,38 @@ export default function FormRegistroCita() {
                       </div>
                     </div>
 
-                    {/* Botón de Enviar */}
-                    {/* <button
-                      type="submit"
-                      disabled={loading}
-                      className={` bg-secondary text-white font-bold px-9 py-3 rounded-2xl mt-4 hover:scale-105 transition-all`}
+                    {/* Acepto términos y condiciones */}
+                    <div
+                      className={`${
+                        formik.touched.aceptoTerminos &&
+                        formik.errors.aceptoTerminos &&
+                        "border-red-500 border rounded-lg"
+                      } flex items-center gap-2 text-sm px-2 py-1`}
                     >
-                      AGENDAR
-                    </button> */}
+                      <input
+                        type="checkbox"
+                        {...formik.getFieldProps("aceptoTerminos")}
+                        disabled={loading}
+                      />
+                      <p className="text-typography-500">
+                        Acepto los{" "}
+                        <a
+                          className="text-secondary"
+                          href="/terminos-y-condiciones"
+                          target="_blank"
+                        >
+                          Términos y Condiciones
+                        </a>{" "}
+                        y las{" "}
+                        <a
+                          className="text-secondary "
+                          href="/politica-de-privacidad"
+                          target="_blank"
+                        >
+                          Políticas de Privacidad
+                        </a>
+                      </p>
+                    </div>
                     <button
                       type="submit"
                       disabled={loading}

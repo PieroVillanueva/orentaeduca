@@ -85,7 +85,7 @@ export const misiones = [
     {
         titulo: "Nuestra Visión",
         descripcion:
-            "Ser un referente en salud mental en Trujillo, reconocido por nuestra atención integral y empatía, transformando vidas a través de más de 27 años de experiencia."
+            "Ser un referente en salud mental en Lima, reconocido por nuestra atención integral y empatía, transformando vidas a través de más de 27 años de experiencia."
     },
     {
         titulo: "Nuestro Valor",
